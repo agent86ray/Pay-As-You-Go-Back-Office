@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Accounts-Payable", "Accounts-Payable\Accounts-Payable.dtproj", "{75C19A60-54F7-42DF-B40E-C6F899396E38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75C19A60-54F7-42DF-B40E-C6F899396E38}.Development|Default.ActiveCfg = Development
+		{75C19A60-54F7-42DF-B40E-C6F899396E38}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48918D01-16C0-4659-9826-0A03461BCBF6}
+	EndGlobalSection
+EndGlobal
