@@ -1,0 +1,6 @@
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\bin\Debug\Staging.dacpac
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\bin\Debug\Staging.dll
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\bin\Debug\Staging.pdb
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\obj\Debug\Staging.sqlprojAssemblyReference.cache
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\obj\Debug\Staging.dll
+C:\repos\Pay-As-You-Go-Back-Office\Onboarding\Staging\obj\Debug\Staging.pdb
