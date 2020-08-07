@@ -3,6 +3,17 @@
 ,	@EXECUTION_ID				BIGINT OUTPUT
 AS
 BEGIN
+	/*
+		-- execute the SSIS package via the stored procedure
+		DECLARE @P_EXECUTION_ID	BIGINT;
+
+		EXEC [dbo].[ExecuteLoadCustomersSSISPackage]
+			@CUSTOMER_FLAT_FILE_NAME = N''
+		,	@EXECUTION_ID = @P_EXECUTION_ID OUTPUT;
+
+		SELECT @P_EXECUTION_ID; 
+
+	*/
 	DECLARE
 		@PROCEDURE_NAME		SYSNAME
 	, 	@FOLDER_NAME		NVARCHAR(128)	

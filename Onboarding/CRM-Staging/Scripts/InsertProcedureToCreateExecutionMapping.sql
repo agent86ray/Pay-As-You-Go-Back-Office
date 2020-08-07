@@ -1,14 +1,20 @@
-﻿-- get the folder id
+﻿-- get the folder_id
 SELECT *
 FROM [SSISDB].[catalog].[folders]
 WHERE [name] = 'CRM';
--- [folder_id] = 2
+-- [folder_id] = 20004
 
--- get the environment id
+-- get the project_id
 SELECT *
-FROM [SSISDB].[catalog].[environments]
-WHERE [folder_id] = 2;
--- [environment_id] = 3
+FROM [SSISDB].[catalog].[projects]
+WHERE [folder_id] = 20004;
+-- [project_id] = 40007
+
+-- get the environment reference id
+SELECT *
+FROM [SSISDB].[catalog].[environment_references]
+WHERE [project_id] = 40007;
+-- [reference_id] = 30005
 
 
 INSERT [dbo].[ProcedureToCreateExecutionMapping] (
@@ -23,5 +29,15 @@ VALUES (
 ,	N'CRM'
 ,	N'CRM_OnBoarding'
 ,	N'LoadCustomers.dtsx'
-,	3	-- [environment_id]
+,	30005	-- [environment_id]
 );
+
+
+
+
+SELECT *
+FROM [dbo].[ProcedureToCreateExecutionMapping]
+
+
+
+
